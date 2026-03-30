@@ -24,9 +24,9 @@ export default function LandingPage() {
 
   // Hardcoded settings since database is no longer used
   const settings = {
-    bankName: "Kuda Bank",
+    bankName: "Guaranteed Trust Bank (GTB)",
     accountName: "Kelechi Nwachukwu",
-    accountNumber: "2012345678",
+    accountNumber: "0010266833",
     totalLimit: 50,
     confirmedCount: 12,
     promoOpen: true,
