@@ -45,7 +45,7 @@ export default function PurchaseNotification({ enabled = true }: PurchaseNotific
               {firstName} {lastInitial}.
             </p>
             <p className="text-xs text-white/70 leading-snug truncate">
-              from {location}
+              from {location} just ordered course
             </p>
           </div>
           <span className="text-[10px] text-[#C9922A] font-medium whitespace-nowrap">{timeAgo}</span>
