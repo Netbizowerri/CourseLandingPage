@@ -18,6 +18,7 @@ import {
 import { toast } from 'sonner';
 import { cn } from '../lib/utils';
 import JotFormEmbed from './JotFormEmbed';
+import PurchaseNotification from './PurchaseNotification';
 
 export default function LandingPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,6 +65,7 @@ export default function LandingPage() {
 
   return (
     <div className="font-['Poppins',sans-serif] text-[#0F2A4A]">
+      <PurchaseNotification enabled={true} />
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-[#FAF9F7]/80 backdrop-blur-md z-50 border-b border-[#0F2A4A]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
