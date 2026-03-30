@@ -306,10 +306,9 @@ export default function LandingPage() {
               {[
                 "10 Comprehensive Modules",
                 "Havenique Project Source Code",
-                "Private Discord Access",
+                "WhatsApp Group Access",
                 "Weekly Live Q&A Sessions",
-                "Portfolio Review",
-                "Certificate of Completion"
+                "Portfolio Review"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3">
                   <CheckCircle2 className="text-[#C9922A] w-5 h-5 flex-shrink-0" />
