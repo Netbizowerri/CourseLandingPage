@@ -19,7 +19,6 @@ import { toast } from 'sonner';
 import { cn } from '../lib/utils';
 import JotFormEmbed from './JotFormEmbed';
 import PurchaseNotification from './PurchaseNotification';
-import FloatingChatbot from './FloatingChatbot';
 
 export default function LandingPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -415,7 +414,6 @@ export default function LandingPage() {
           </div>
         </div>
       </footer>
-      <FloatingChatbot />
     </div>
   );
 }
